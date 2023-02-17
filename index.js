@@ -7,7 +7,7 @@ const app = express();
 
 app.get('/', async (req, res) => {
 	// const result = await api.sendMessage('hello');
-	res.send('hello');
+	res.send('hello world');
 });
 
 app.listen(5000, () => {
