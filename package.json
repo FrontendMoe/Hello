@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/FrontendMoe/nextjs#readme",
   "dependencies": {
+    "chatgpt": "^4.4.1",
+    "cors": "^2.8.5",
     "express": "^4.18.2"
   }
 }

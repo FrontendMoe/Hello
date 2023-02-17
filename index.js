@@ -1,13 +1,13 @@
 const express = require('express');
-const ChatGPTAPI = require('chatgpt').ChatGPTAPI;
-const api = new ChatGPTAPI({
-	apiKey: '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',
-});
+// const ChatGPTAPI = require('chatgpt').ChatGPTAPI;
+// const api = new ChatGPTAPI({
+// 	apiKey: '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',
+// });
 const app = express();
 
 app.get('/', async (req, res) => {
-	const result = await api.sendMessage('hello');
-	res.send(result);
+	// const result = await api.sendMessage('hello');
+	res.send('hello');
 });
 
 app.listen(5000, () => {
